@@ -12,6 +12,6 @@ Migrations can be run by typing the following:
 ## Moving the migration number
 When you've created your next migration, update the migration version number.
 
-- Open 'application/config/migration.php'
+- Open '**application/config/migration.php**'
 - Update the following with the latest migration number:  $config['migration_version'] = 1;
 - Run migration:  `php index.php migrate/now`
